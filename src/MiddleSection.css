@@ -1,0 +1,104 @@
+
+.markCubanSection{
+    background-color: rgb(220 242 249);
+    border-radius: 10px;
+}
+.MarkCubanImg{
+    height: 13rem;
+}
+.MarkCubanQuotes{
+    font-family: Inter var, Helvetica, Arial, sans-serif;
+    font-style: italic;
+    padding-bottom: 16px;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 200;
+    
+}
+.MarkCubanAuthor{
+    font-family: Inter var, Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 200;
+}
+@media (max-width: 768px) {
+    .MarkCubanImg{
+        height: 100% !important;
+        width: 100% !important;
+    }
+    .MarkCubanQuotes{
+        font-family: Inter var, Helvetica, Arial, sans-serif;
+        font-style: italic;
+        padding-bottom: 16px;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        font-weight: 200;
+
+    }
+}
+    .row-no-gutter {
+        --bs-gutter-x: 0;
+      }
+      
+
+.Pricecard{
+    background-color: white;
+    border: 3px solid rgb(210, 209, 209);
+    width: 550px;
+    border-radius: 10px;
+}
+.SavePrice{
+    background-color: rgb(240 104 66);
+    color: white;
+    border-radius: 3px;
+    transform: scale(1.2);
+    height: 2rem;
+}
+.SavePricePara{
+    font-size: 15px;
+}
+.Circle {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center elements horizontally */
+    justify-content: center;
+    margin: 10px auto;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    border: 3px solid rgb(220 242 249);
+    background-color: #f8f9fa;
+    position: relative; /* For better positioning of subCircle */
+    text-align: center;
+  }
+  
+  .subCircle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute; /* Position the subCircle inside the main Circle */
+    top: 25%; /* Adjust as needed to center */
+  }
+  
+  .PlusIcon {
+    display: inline-block;
+    font-size: 4rem;
+    padding-bottom: 15px;
+  }
+  
+  .disease-name {
+    margin-top: 60px; /* Add space below the Circle */
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
